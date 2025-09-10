@@ -1,0 +1,7 @@
+package com.example.blogNest.domain.blog;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BlogRepository extends JpaRepository<Blog, Long> {
+    // Add custom query methods if needed
+}
